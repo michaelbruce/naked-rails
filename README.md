@@ -28,3 +28,9 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+#### Steps to configure
+
+included "config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }" in environment/development.rb
+rails g devise:install
+rails g active_admin:install
