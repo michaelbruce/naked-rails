@@ -32,3 +32,4 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 gem 'devise' # for authenication handling
 gem 'activeadmin', github: 'activeadmin'
+gem 'chartkick'
